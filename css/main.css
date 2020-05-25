@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 6rem;
+    color: #fff;
+  }
+  
+  h2, h3, h4 {
+    font-family: 'Program OT', sans-serif;
+    color: #fff;
+  }
+  
+  header {
+    background-image: url("../images/shadowlands_large.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 12rem;
+    min-height: 48.1rem;
+    color: #fff;
+  }
+  
+  h2 strong {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-weight: bold;
+    letter-spacing: 0rem;
+  }
+  
+  header strong {
+    display: block;
+  }
+  
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  article {
+    background-color: #E4E4E4;
+    color: #000;
+  }
+  
+  article h3 {
+    color: #000;
+  }
+  
+  #partners {
+    background-image: url("../images/partners-bg.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 70.3rem;
+  }
+  
+  footer {
+    background-color: #000;
+  }
+  
+  footer a {
+    color: #fff;
+  }
