@@ -59,4 +59,8 @@ footer {
 footer a {
   color: #fff;
 }
+
+body {
+  max-width: 128rem;
+}
 /*# sourceMappingURL=main.css.map */

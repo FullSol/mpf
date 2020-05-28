@@ -43,11 +43,20 @@ article{
     }
 }
 
+#features, #main{
+    background-color: #1A1D24;
+}
+
+#main{
+    background-color: #1A1D24;
+}
+
 #partners{
     background-image: url("../images/partners-bg.png");
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 footer {
@@ -55,4 +64,13 @@ footer {
 a{
     color: #fff;
 }
+}
+
+body{
+    max-width: 128rem;
+    background-color: #000;
+}
+
+section, header, footer{
+    padding: 2rem 1.8rem 5rem 1.8rem;
 }
