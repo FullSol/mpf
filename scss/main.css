@@ -11,7 +11,6 @@ h2, h3, h4 {
 
 header {
   background-image: url("../images/shadowlands_large.png");
-  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 12rem;
