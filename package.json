@@ -1,22 +1,21 @@
 {
   "name": "mpf",
   "version": "1.0.0",
+  "private": true,
   "description": "Mythic Plus Friends Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FullSol/mpf.git"
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
   },
-  "author": "Calvin Raines",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FullSol/mpf/issues"
-  },
-  "homepage": "https://github.com/FullSol/mpf#readme",
   "dependencies": {
-    "bower": "^1.8.8"
+    "reset-css": "^5.0.1"
   }
 }
