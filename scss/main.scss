@@ -59,7 +59,11 @@ article {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: center;
+  figure{
+      margin-left: auto;
+      margin-right:auto;
+      text-align: center;
+  }
 }
 
 footer {
