@@ -1,86 +1,99 @@
-h1{
-    font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 6rem;
-    color: #fff;
+h1 {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-size: 6rem;
+  color: #fff;
 }
-h2,h3,h4{
-    font-family: 'Program OT', sans-serif;
-    color: #fff;
-}
-
-header{
-    background-image: url("../images/shadowlands_large.png");
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 48.1rem;
-    color: #fff;
+h2,
+h3,
+h4 {
+  font-family: "Program OT", sans-serif;
+  color: #fff;
 }
 
-h2 strong{
-    text-transform: uppercase;
-    font-size: 2.6rem;
-    font-weight: bold;
-    letter-spacing: 0rem;
+header {
+  background-image: url("../images/shadowlands_large.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 48.1rem;
+  color: #fff;
 }
 
-header strong{
-    display: block;
+h2 strong {
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  font-weight: bold;
+  letter-spacing: 0rem;
 }
 
-a{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
+header strong {
+  display: block;
 }
 
-article{
-    background-color: #E4E4E4;
+a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+article {
+  background-color: #e4e4e4;
+  color: #000;
+  h3 {
     color: #000;
-    h3{
-        color: #000;
-    }
+  }
 }
 
-#features, #main{
-    background-color: #1A1D24;
+#features,
+#main {
+  background-color: #1a1d24;
 }
 
-#main{
-    background-color: #1A1D24;
+#main {
+  background-color: #1a1d24;
 }
 
-#partners{
-    background-image: url("../images/partners-bg.png");
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+#partners {
+  background-image: url("../images/partners-bg.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
-    background-color: #000;
-a{
+  background-color: #000;
+  a {
     color: #fff;
-}
-}
-
-body{
-    max-width: 128rem;
-    background-color: #000;
-    margin:0;
+  }
 }
 
-section, header, footer{
-    padding: 2rem 1.8rem 5rem 1.8rem;
+body {
+  max-width: 128rem;
+  background-color: #000;
+  margin: 0;
 }
 
-.card{
-    max-width: 27.5rem;
+section,
+header,
+footer {
+  padding: 2rem 1.8rem 5rem 1.8rem;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+.card {
+  max-width: 27.5rem;
+}
+
+@media (max-width: 767.98px) {
+  article {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 767.98px) {
     article{
-        margin-bottom: 1.5rem;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
     }
- }
+}
