@@ -59,6 +59,7 @@ article {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 }
 
 footer {
@@ -95,5 +96,11 @@ footer {
         margin-left:auto;
         margin-right: auto;
         margin-top: 1.5rem;
+    }
+
+    #partners{
+        h2{
+            margin-bottom:10rem;
+        }
     }
 }
