@@ -37,6 +37,10 @@ a {
   font-weight: bold;
 }
 
+ul {
+  list-style-type: none;
+}
+
 article {
   background-color: #e4e4e4;
   color: #000;
@@ -78,7 +82,6 @@ footer a {
 }
 
 body {
-  max-width: 128rem;
   background-color: #000;
   margin: 0;
 }
